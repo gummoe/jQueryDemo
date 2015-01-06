@@ -1,6 +1,36 @@
+#control-unit {
+	float: left;
+	width: 250px;
+	background-color: #CCCCCC;
+	height: 600px;
+	margin-left: -15px;
+}
+
+#options {
+	margin-top: 15px;
+}
+
+#options ul {
+	list-style-type: none;
+}
+
+#options li {
+	/*color: #FFFFFF;*/
+}
+
 #the-div {
 	position: relative;
-	height: 100px;
-	width: 100px;
-	background-color: #ABCDEF;
+	padding: 5px;
+	margin-top: 25px;
+	height: 250px;
+	width: 250px;
+	border: 1px solid black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.btn {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
