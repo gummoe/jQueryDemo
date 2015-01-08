@@ -1,9 +1,19 @@
-#control-unit {
-	float: left;
-	width: 250px;
+.container-fluid {
+	height: 700px;
+	width: 1000px;
+}
+
+.workspace {
 	background-color: #CCCCCC;
-	height: 600px;
-	margin-left: -15px;
+	height: 100%;
+	width: 100%;
+}
+
+#control-unit {
+	height: 200px;
+	width: 100%;
+	background-color: #586A8C;
+	/*margin-left: -15px;*/
 }
 
 #options {
@@ -15,11 +25,10 @@
 }
 
 #options li {
-	/*color: #FFFFFF;*/
+	display: inline-block;
 }
 
 #the-div {
-	position: relative;
 	padding: 5px;
 	margin-top: 25px;
 	height: 250px;
@@ -27,6 +36,7 @@
 	border: 1px solid black;
 	margin-right: auto;
 	margin-left: auto;
+	background-color: blue;
 }
 
 .btn {
