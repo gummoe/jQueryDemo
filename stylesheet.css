@@ -1,19 +1,22 @@
 .container-fluid {
 	height: 700px;
 	width: 100%;
-}
-
-.workspace {
-	background-color: #FFFFFF;
-	height: 100%;
-	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 #control-unit {
-	height: 200px;
+	height: 175px;
 	width: 100%;
-	padding: 10px;
+	padding-top: 10px;
+	margin-bottom: 75px;
 	background-color: #586A8C;
+}
+
+.demo-area {
+	background-color: #FFFFFF;
+	height: 100%;
+	width: 100%;
 }
 
 #options {
@@ -29,14 +32,14 @@
 }
 
 #the-div {
-	padding: 5px;
-	margin-top: 25px;
+	position: relative;
 	height: 250px;
 	width: 250px;
-	border: 1px solid black;
+	border-radius: 100%;
+	/*border: 1px solid black;*/
 	margin-right: auto;
 	margin-left: auto;
-	background-color: blue;
+	background-color: #F22233;
 }
 
 .btn {
