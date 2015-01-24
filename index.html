@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>JQuery Demo</title>
-		
+
 		<!-- jQuery UI CSS CDN -->
 		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
 
@@ -14,19 +14,20 @@
 
 		<!-- jQuery CDN -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		
+
 		<!-- jQuery UI CDN -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 
 		<!-- Bootstrap JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-		
+
 		<!-- Core JavaScript -->
 		<script src='script.js'></script>
 	</head>
 
 	<body>
 		<div class="container-fluid">
+			<!-- This is the control panel -->
 			<div id="control-unit">
 				<button type="button" class="btn btn-default instructions" data-container="body" data-toggle="popover" data-placement="bottom" title="Instructions" data-content="Select one of the options below to see a demonstration of the effect.">Instructions</button>
 				<div id="options">
@@ -39,14 +40,13 @@
 						</li>
 						<li>Fade In</li>
 						<li>Fade Out</li>
-					</ul>	
+					</ul>
 				</div>
-				<button type="button" class="btn btn-default">Reset</button>	
-			</div>	
+				<button type="button" class="btn btn-default">Reset</button>
+			</div>
+			<!-- This is the space that the div is operated on -->
 			<div class="workspace">
-				<div id="the-div">
-					<h3>The Effects Box</h3>
-				</div>
+				<div id="the-div"></div>
 			</div>
 		<div>
 	</body>
