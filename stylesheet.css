@@ -32,11 +32,10 @@
 }
 
 #the-div {
-	position: relative;
+	/*position: relative;*/
 	height: 250px;
 	width: 250px;
 	border-radius: 100%;
-	/*border: 1px solid black;*/
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #F22233;
