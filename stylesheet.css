@@ -1,27 +1,33 @@
 .container-fluid {
 	height: 700px;
-	width: 1000px;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
-.workspace {
-	background-color: #CCCCCC;
+#control-unit {
+	height: 175px;
+	width: 100%;
+	padding-top: 10px;
+	margin-bottom: 75px;
+	background-color: #586A8C;
+}
+
+.demo-area {
+	background-color: #FFFFFF;
 	height: 100%;
 	width: 100%;
 }
 
-#control-unit {
-	height: 200px;
-	width: 100%;
-	background-color: #586A8C;
-	/*margin-left: -15px;*/
-}
-
 #options {
 	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
 }
 
 #options ul {
 	list-style-type: none;
+	/*display: inline-block;*/
 }
 
 #options li {
@@ -29,14 +35,12 @@
 }
 
 #the-div {
-	padding: 5px;
-	margin-top: 25px;
 	height: 250px;
 	width: 250px;
-	border: 1px solid black;
+	border-radius: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: blue;
+	background-color: #F22233;
 }
 
 .btn {
